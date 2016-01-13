@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>ECharts</title>
+    <meta charset="utf-8">
+    <script src="/static/js/echarts.min.js"></script>
+</header>
+<body>
+<ul>
+{{ range $name, $href := . }}
+    <li><a href="/c/{{ $href }}">{{ $name }}</a></li>
+{{ end }}
+</ul>
+</body>
+</html>
