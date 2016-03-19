@@ -1,3 +1,5 @@
 Godeps/*
 !Godeps/Godeps.json
 
+vendor/
+
